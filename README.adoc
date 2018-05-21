@@ -33,7 +33,7 @@ link:https://github.com/ByeongSoon/TIL/tree/master/Java[여기]
 . link:https://github.com/ByeongSoon/spring4/tree/master/sp4-chap02/src/main[스프링 시작하기]
 . link:https://github.com/ByeongSoon/spring4/tree/master/sp4-chap03/src/main[스프링 DI]
 . link:https://github.com/ByeongSoon/spring4/tree/master/sp4-chap04/src/main[의존 자동 주입]
-. 자바 코드를 이용한 설정
+. link:https://github.com/ByeongSoon/spring4/tree/master/sp4-chap05/src/main[자바 코드를 이용한 설정]
 . 빈 라이프사이클과 범위
 . AOP 소개
 . DB 연동
