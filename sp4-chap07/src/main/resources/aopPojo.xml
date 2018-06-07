@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id="exeTimeAspect" class="aspect.ExeTimeAspect"/>
+
+
+    <!--<aop:config proxy-target-class="true"> 빈 객체가 인터페이스가 아닌 클래스를 이용해서 프록시 생성하고자 할 때-->
+    <aop:config>
+        <aop:aspect id="measureAspect" ref="exeTimeAspect">
+            <aop:pointcut id="publicMethod" expression="execution(public * chap07..*(..))"/>
+            <aop:around method="measure" pointcut-ref="publicMethod"/>
+        </aop:aspect>
+    </aop:config>
+
+    <bean id="impeCal" class="chap07.ImpeCalculator">
+    </bean>
+
+    <bean id="recCal" class="chap07.RecCalculator">
+    </bean>
+
+</beans>
