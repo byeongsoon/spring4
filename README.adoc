@@ -36,8 +36,8 @@ link:https://github.com/ByeongSoon/TIL/tree/master/Java[여기]
 . link:https://github.com/ByeongSoon/spring4/tree/master/sp4-chap05/src/main[자바 코드를 이용한 설정]
 . link:https://github.com/ByeongSoon/spring4/tree/master/sp4-chap06/src/main[빈 라이프사이클과 범위]
 . link:https://github.com/ByeongSoon/spring4/tree/master/sp4-chap07/src/main[AOP 소개]
-. DB 연동
-. 스프링 MVC 시작하기
+. link:https://github.com/ByeongSoon/spring4/tree/master/sp4-chap08/src/main[DB 연동]
+. link:https://github.com/ByeongSoon/spring4/tree/master/sp4-chap09/src/main[스프링 MVC 시작하기]
 . 스프링 MVC 프레임워크 동작 방식
 . MVC 1 : 요청 매핑, 커맨드 객체, 리다이렉트, 폼 태그, 모델
 . MVC 2 : 메시지, 커맨드 객체 검증, 세션, 인터셉터, 쿠키
