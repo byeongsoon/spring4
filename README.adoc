@@ -41,7 +41,7 @@ link:https://github.com/ByeongSoon/TIL/tree/master/Java[여기]
 . 스프링 MVC 프레임워크 동작 방식(예제 없음)
 . link:https://github.com/ByeongSoon/spring4/tree/master/sp4-chap11[MVC 1 : 요청 매핑, 커맨드 객체, 리다이렉트, 폼 태그, 모델]
 . link:https://github.com/ByeongSoon/spring4/tree/master/sp4-chap12[MVC 2 : 메시지, 커맨드 객체 검증, 세션, 인터셉터, 쿠키]
-. MVC 3 : 날짜 값 변화, @PathVariable, 익셉션 처리
+. link:https://github.com/ByeongSoon/spring4/tree/master/sp4-chap13[MVC 3 : 날짜 값 변화, @PathVariable, 익셉션 처리]
 . 스프링 MVC 자바 설정
 . 웹 어플리케이션 구조 개요
 . 프로필과 프로퍼티 파일
